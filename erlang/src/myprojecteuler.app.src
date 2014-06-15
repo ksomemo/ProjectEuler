@@ -1,0 +1,14 @@
+{application, myprojecteuler,
+ [
+  {description, "An Erlang myprojecteuler library"},
+  {vsn, "1"},
+  {modules, [
+             myprojecteuler
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
